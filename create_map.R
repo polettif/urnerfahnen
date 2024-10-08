@@ -11,4 +11,5 @@ map = leaflet() |>
 					opacity = 1, fillOpacity = 1)
 
 mapview::mapshot(map, url = "docs/index.html")
+unlink("docs/index_files", recursive = T)
 sf::st_write(coords, "docs/urnerfahnen-standorte.geojson", delete_dsn = TRUE)
