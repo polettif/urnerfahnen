@@ -4,6 +4,8 @@ library(mapview)
 coords.csv = read.csv("urnerfahnen-standorte.csv")
 coords = sf::st_as_sf(coords.csv, coords = c("lon", "lat"), crs = 4326)
 
+nrow(unique(round(coords.csv, 4))) == nrow(coords.csv)
+
 map = leaflet() |>
 	addProviderTiles(providers$CartoDB.Positron) %>%
 	addCircleMarkers(data = coords,
