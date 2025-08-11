@@ -59,6 +59,14 @@
 { "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.58831, 46.66709 ] } },
 { "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.59627, 46.63473 ] } },
 { "type": "Feature", "properties": { "typ": "Balkon/Fassade" }, "geometry": { "type": "Point", "coordinates": [ 8.63216, 46.87617 ] } },
-{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.6677, 46.79485 ] } }
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.6677, 46.79485 ] } },
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.72459, 46.99074 ] } },
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.67299, 47.10176 ] } },
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.82127, 46.87337 ] } },
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.71675, 46.90207 ] } },
+{ "type": "Feature", "properties": { "typ": "Balkon/Fassade" }, "geometry": { "type": "Point", "coordinates": [ 8.67654, 46.90666 ] } },
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.63092, 46.89542 ] } },
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.02815, 47.18787 ] } },
+{ "type": "Feature", "properties": { "typ": "Fahnenmast" }, "geometry": { "type": "Point", "coordinates": [ 8.62901, 46.89 ] } }
 ]
 }
