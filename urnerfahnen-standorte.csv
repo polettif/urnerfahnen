@@ -12,7 +12,6 @@ lon,lat,typ
 8.60611,46.99457,Balkon/Fassade
 8.24542,46.89520,Balkon/Fassade
 8.59173,46.99990,Balkon/Fassade
-8.65243,47.02232,Balkon/Fassade
 8.54271,47.04904,Fahnenmast
 8.62909,47.02730,Fahnenmast
 7.69801,46.90069,Balkon/Fassade
@@ -80,3 +79,5 @@ lon,lat,typ
 8.59662,46.63295,Kandelaber
 8.59628,46.63325,Balkon/Fassade
 8.63186,46.86364,Balkon/Fassade
+8.47950,47.04000,Fahnenmast
+
