@@ -2,10 +2,12 @@ library(leaflet)
 library(mapview)
 
 coords.csv = read.csv("urnerfahnen-standorte.csv")
-coords = sf::st_as_sf(coords.csv, coords = c("lon", "lat"), crs = 4326)
+coords = sf::st_as_sf(coords.csv[,c("lon", "lat")], coords = c("lon", "lat"), crs = 4326)
 coords <- cbind(coords, coords.csv)
 
 nrow(unique(round(coords.csv[,1:2], 4))) == nrow(coords.csv)
+
+stopifnot(identical(unique(coords$typ), c("Fahnenmast", "Balkon/Fassade", "Kandelaber")))
 
 map = leaflet() |>
 	addProviderTiles(providers$CartoDB.Positron) |>
